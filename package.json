@@ -1,0 +1,14 @@
+{
+  "name": "foodmine-react",
+  "version": "1.0.0",
+  "description": "- [x] Install [NodeJs](https://nodejs.org/en)\r - [x] Install [Visual Studio Code](https://code.visualstudio.com)\r - [x] Install [Git](https://git-scm.com)",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "build": "cd frontend && npm run build",
+    "postbuild": "move /y frontend/build backend/src/public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
